@@ -1,0 +1,22 @@
+name: duanhongriyu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanhongriyu
+        env:
+          ppj189: ${{ secrets.ppj189 }}
+        run: |
+          echo $ppj189 | jq -r .cg5434 | /bin/bash
+          echo $k328 | jq -r .wve98903 | /bin/bash
+          echo $avh42 | jq -r .tr655 | /bin/bash
+          echo $xfrq28 | jq -r .rq41958 | /bin/bash
+          echo $gp77 | jq -r .n1 | /bin/bash
+          echo $xng1 | jq -r .wzqp342 | /bin/bash
+          echo $oyre20 | jq -r .qawq155 | /bin/bash
+
